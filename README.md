@@ -3,7 +3,7 @@ This example package contains code to ingest a batch input, transform it into st
 
 **Blog Post**: https://aws.amazon.com/blogs/big-data/doing-more-with-less-moving-from-transactional-to-stateful-batch-processing/
 
-![Batch Processing Architecture](assets/feature-architecture.png)
+[![Batch Processing Architecture](assets/feature-architecture.png)](https://aws.amazon.com/blogs/big-data/doing-more-with-less-moving-from-transactional-to-stateful-batch-processing/)
 
 ### Deployment Instructions
 
