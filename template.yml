@@ -646,7 +646,7 @@ Resources:
       ServiceRole:
         Ref: EMRRole
       Name: pre-fetcher
-      ReleaseLabel: 'emr-5.33.1'
+      ReleaseLabel: 'emr-6.2.0'
       VisibleToAllUsers: true
  
   StatefulProcessorEMRCluster:
@@ -684,7 +684,7 @@ Resources:
       ServiceRole:
         Ref: EMRRole
       Name: stateful-processor
-      ReleaseLabel: 'emr-5.33.1'
+      ReleaseLabel: 'emr-6.2.0'
       VisibleToAllUsers: true
  
   StatelessIngestionEMRCluster:
@@ -722,7 +722,7 @@ Resources:
       ServiceRole:
         Ref: EMRRole
       Name: stateless-ingestion
-      ReleaseLabel: 'emr-5.33.1'
+      ReleaseLabel: 'emr-6.2.0'
       VisibleToAllUsers: true
  
   CloudWatchExecutionRole:

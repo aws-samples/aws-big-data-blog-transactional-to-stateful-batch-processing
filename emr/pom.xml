@@ -19,13 +19,13 @@
   <dependencies>
     <dependency>
       <groupId>org.apache.spark</groupId>
-      <artifactId>spark-core_2.11</artifactId>
-      <version>2.4.7</version>
+      <artifactId>spark-core_2.12</artifactId>
+      <version>3.2.1</version>
     </dependency>
     <dependency>
       <groupId>org.apache.spark</groupId>
-      <artifactId>spark-sql_2.11</artifactId>
-      <version>2.4.7</version>
+      <artifactId>spark-sql_2.12</artifactId>
+      <version>3.2.1</version>
     </dependency>
       <dependency>
           <groupId>com.amazonaws</groupId>
