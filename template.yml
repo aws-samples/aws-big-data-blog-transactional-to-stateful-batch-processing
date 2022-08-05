@@ -507,6 +507,8 @@ Resources:
     Properties:
       BucketName: 
         {"Fn::Sub": "development-${AWS::AccountId}"}
+      VersioningConfiguration:
+        Status: Enabled
       BucketEncryption:
         ServerSideEncryptionConfiguration:
         - ServerSideEncryptionByDefault:
@@ -520,6 +522,8 @@ Resources:
     Properties:
       BucketName: 
         {"Fn::Sub": "stateful-artifacts-${AWS::AccountId}"}
+      VersioningConfiguration:
+        Status: Enabled
       BucketEncryption:
         ServerSideEncryptionConfiguration:
         - ServerSideEncryptionByDefault:
@@ -533,6 +537,8 @@ Resources:
     Properties:
       BucketName: 
         {"Fn::Sub": "stateless-artifacts-${AWS::AccountId}"}
+      VersioningConfiguration:
+        Status: Enabled
       BucketEncryption:
         ServerSideEncryptionConfiguration:
         - ServerSideEncryptionByDefault:
